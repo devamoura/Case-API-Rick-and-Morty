@@ -1,0 +1,13 @@
+# Ignorando o ambiente virtual local
+.venv/
+venv/
+ENV/
+
+# Ignorando pastas de configuração do VS Code
+.vscode/
+
+# Ignorando os arquivos CSV gerados localmente por teste
+*.csv
+
+# Ignorando arquivos do sistema operacional Mac
+.DS_Store
