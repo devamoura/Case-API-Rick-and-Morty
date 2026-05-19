@@ -11,11 +11,12 @@ Além disso, fiz questão de armazenar informações como a URL, o nome do arqui
 Durante o desenvolvimento, identifiquei que a API muda o contrato de resposta conforme a quantidade de personagens retornados: ao buscar vários personagens ela devolve uma lista de objetos, mas ao buscar apenas 1, devolve um dicionário direto. Para blindar a aplicação contra esse comportamento, adicionei a validação com `isinstance` para garantir que o dado seja sempre tratado como uma lista padronizada, evitando que o sistema quebre.
 
 ## Estrutura do Projeto
-
+```
 ├── export_data_from_api_to_csv.py       # Script principal
 ├── README.md                             # Documentação do projeto
 ├── requirements.txt                      # Dependências
 ├── postman_print.png                     # Print do teste da API no Postman
+```
 
 ## Exemplo de Saída (CSV)
 
